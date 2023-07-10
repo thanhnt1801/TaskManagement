@@ -1,0 +1,54 @@
+
+/* .lobby {
+    width: 400px;
+    margin: auto;
+} */
+
+/* .chat {
+    display: grid;
+} */
+/* 
+.leave-room {
+    text-align: right;
+    margin-bottom: 4px;
+    background-color: #8892a7;
+} */
+
+/* .user-list {
+    float: left;
+    background-color: #313131;
+    color:white;
+    width: 200px;
+    height: 840px;
+    margin-right: 4px;
+} */
+/* 
+.message-container {
+    height: 800px;    
+    background-color: rgb(201, 178, 178);
+    overflow: auto;
+    border-radius: 5px;
+    margin-bottom: 2px;
+} */
+/* 
+.user-message {
+    text-align: left;
+    padding-right: 5px;
+    font-size: 18px;
+} */
+
+/* .message {
+    display: inline-flex;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    font-size: 18px;
+    color:rgb(199, 140, 140);
+    border-radius: 20px;
+    margin-top: 3px;
+} */
+
+/* .from-user {
+    font-size: small;
+    margin-bottom: 3px;
+    margin-right: 5px;
+} */

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* //scrollbar css */
+html *::-webkit-scrollbar {
+   border-radius: 0;
+   width: 8px;
+}
+/* // * html > * ( tất cả ) */
+
+html *::-webkit-scrollbar-thumb {
+   border-radius: 4px;
+   background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+   border-radius: 0;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+::-webkit-file-upload-button {
+   display: none;
+}

@@ -1,0 +1,47 @@
+.menu-item {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 8px;
+    align-items: center;
+    border-radius: 4px;
+    color:rgb(73, 70, 70);
+    transition: background-color ease-in-out 200ms;
+ 
+    &.active {
+       color:#4F46E5;
+
+      .image{
+          border: 1px solid #544BE5;
+      }
+       .active-icon {
+          display: flex;
+       }
+    }
+    &:hover {
+       background-color: rgba(5, 23, 123, 0.241);
+    }
+ }
+ 
+ .icon,
+ .active-icon {
+    display: flex;
+    margin-right: 10px;
+ }
+ 
+ .title {
+    margin-right: 10px;
+ }
+ 
+ .active-icon {
+    display: none;
+ }
+ 
+ .image{
+   width: 26px;
+   height: 26px;
+   margin: 0 0.5rem 0 0;
+   border-radius: 5px;
+   border: 1px solid hsla(0,0%,100%,.4);
+   flex: 0 1 auto;
+ }
